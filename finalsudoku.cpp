@@ -6,7 +6,7 @@
 #include <ctime>
 #include <cstdlib>
 #include <cstring>
-#include <sqlite3.h>
+#include <sqlite3.h> //no db usage anywhere right now
 #include <SFML/Audio.hpp>
 using namespace std;
 
@@ -1041,4 +1041,5 @@ CreateText.setStyle(sf::Text::Underlined);
         return 1;
     }
     return 0;
+
 }
